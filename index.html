@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculation</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="calc.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Calculate numbers-->
+
+<div class="container">
+
+    <h1> Fast Calculator </h1>
+    <hr>
+    <br>
+
+    <h2> Enter Numbers </h2>
+    <div id="sumDiv"> 
+    <input type="text" id="num1" placeholder = "1st Number" class="btn"> </input>
+    
+    <input type="text" id="num2" placeholder = "2nd Number" class="btn"> </input>
+    </div>
+
+
+    <h2> What you want to do?</h2>
+ 
+    <button onclick = "sum()" class="btn" > Addition (+) </button>
+    <button onclick = "sub()" class="btn" > Subtraction (-) </button>
+     
+    <button onclick = "mul()" class="btn" > Multiplication (x) </button>
+    <button onclick = "div()" class="btn" > division (/) </button>
+    
+
+
+    <div id="ansBox" class="ans-box"> </div>
+
+
+    <div class="footer"> 
+        © Anand R P        
+        <a href="https://www.linkedin.com/in/anandrp2030/"> <img class="logo" src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="logo"></a>
+
+    <div>  
+
+</div>
+
+   
+
+    <!-- javaScript link -->
+    <script src="calc.js"></script>
+</body>
+</html>
